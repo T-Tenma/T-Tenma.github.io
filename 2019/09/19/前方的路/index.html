@@ -335,6 +335,29 @@
   
 
 
+
+  <section id="comments" style="margin:10px;padding:10px;background:#fff;">
+    <div id="vcomment" class="comment"></div> 
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+   var notify = 'false' == true ? true : false;
+   var verify = 'false' == true ? true : false;
+    window.onload = function() {
+        new Valine({
+            el: '#vcomment',
+            notify: notify,
+            verify: verify,
+            app_id: "dgrFLtCxLicSAx9f3UqIb4Lh-gzGzoHsz",
+            app_key: "1M2MA3HpUC6Ecj25CzK5NAw8",
+            placeholder: "请留下您宝贵的一言",
+            avatar:"mm"
+        });
+    }
+</script>
+  </section>
+
+
           </div>
         </div>
       </div>
